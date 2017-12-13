@@ -22,7 +22,7 @@ Your ```app/assets/javascripts/application.js``` requires should look like:
 //= require_tree
 ```
 
-Make a ```foundation_load.coffee``` file in ```app/assets/javascripts``` and put
+Make a ```foundation_load.coffee``` file in ```app/assets/javascripts``` add add the following code:
 ```CoffeeScript
 $(document).on('turbolinks:load', () ->
   $(document).foundation()
